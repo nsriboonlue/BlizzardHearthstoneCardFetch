@@ -28,7 +28,21 @@
 </div>
 
 <h3>List of cards:</h3>
- <pre><code> {{jsonfile}}</code></pre>
+<table>
+    {% for card in cards %}
+        <tr>               
+            <td><img src={{ card.image }}></td>
+            <td>
+                <b>Id:</b> {{ card.id }}<br>
+                <b>Name:</b> {{ card.name }}<br>
+                <b>Type:</b> {{ card.cardTypeId }}<br>
+                <b>Rarity:</b> {{ card.rarityId }}<br>
+                <b>Set:</b> {{ card.cardSetId }}<br>
+                <b>Class:</b> {{ card.classId }}</h2>
+            </td>
+        </tr>
+    {% endfor %}
+</table>
  
 {% endblock %}
  
