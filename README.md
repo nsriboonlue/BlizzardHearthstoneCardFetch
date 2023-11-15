@@ -34,6 +34,6 @@ Blizzard Take-Home assignment for SRE hiring process
           "class": "druid,warlock",  
           "rarity": "legendary"  
           }    
-    5. Extract the needed data while map the individual ID's to string name from Meta data  
+    5. Extract the needed data while mapping the individual ID's to their string equivalent from Meta data  
     6. Sort result by ID    
     7. Output result to Web Application at http://127.0.0.1:5000/hearthstone via Flask    
