@@ -1,13 +1,13 @@
 # BlizzardTakeHomeCode  
 Blizzard Take-Home assignment for SRE hiring process  
 
-Run instruction:    
+## Run instruction:    
 -Clone code and update .env with your Blizzard Dev credentials    
 -run pip install -requirements.txt  (should just need flask, requests, and dotenv)  
 -python3 BlizzCodingAssignment.py    
 -Open browser to "http://127.0.0.1:5000/hearthstone"    
 
-Requirements:  
+## Requirements:  
     1. Create a web application to render requested information from the API into a human readable page.  
     2. Retrieve details of any 10 cards with the following criteria:  
         - Class: Druid or Warlock  
@@ -21,7 +21,7 @@ Requirements:
         - Set  
         - Class  
 
-Implementation:  
+## Implementation:  
     1. Send POST requesting for access token to https://oauth.battle.net/token    
     2. Use the access token to send GET request to https://us.api.blizzard.com/hearthstone/metadata?locale=en_US for the Meta data  
     3. Parse the meta data into dictionaries  
