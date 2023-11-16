@@ -3,7 +3,7 @@ Blizzard Take-Home assignment for SRE hiring process
 
 ## Run instruction:    
 -Clone code and update .env with your Blizzard Dev credentials    
--run pip install -requirements.txt  (should just need flask, requests, and dotenv)  
+-run pip install and grab requests, flask, and python-dotenv 
 -python3 BlizzCodingAssignment.py    
 -Open browser to "http://127.0.0.1:5000/hearthstone"    
 
